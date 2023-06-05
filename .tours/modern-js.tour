@@ -1,0 +1,70 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Modern JS",
+  "steps": [
+    {
+      "file": "main.js",
+      "description": "## Arrow functions\r\nThe arrow function is a compact version of the standard function expression, which make them desirable when passing anonymous functions to methods.\r\n\r\n1. Change Function Expressions to Arrow Functions\r\n",
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 1,
+          "character": 19
+        }
+      }
+    },
+    {
+      "file": "main.js",
+      "description": "## Destructuring arrays\r\n\r\n1. Write a function called getArrayInfo that takes an array as input and extracts specific information using array destructuring. The function should return an object containing the extracted information.\r\n\r\n2. Write a function called 'getDateParts' that takes a date string (in the format \"YYYY-MM-DD\") as input and returns an object containing the year, month, and day as properties.",
+      "selection": {
+        "start": {
+          "line": 10,
+          "character": 1
+        },
+        "end": {
+          "line": 10,
+          "character": 24
+        }
+      },
+      "line": 12
+    },
+    {
+      "file": "main.js",
+      "description": "## Destructuring objects\r\n\r\n1. Write a function called getObjInfo that takes an object as input and extracts specific information using object destructuring. The function should return a string containing the extracted information.",
+      "selection": {
+        "start": {
+          "line": 21,
+          "character": 1
+        },
+        "end": {
+          "line": 21,
+          "character": 24
+        }
+      },
+      "line": 36
+    },
+    {
+      "file": "main.js",
+      "description": "## Spread syntax\r\n\r\n1. Write a function called extendObj that takes an object as input and creates a copy of the object while extending it with additional properties using the spread syntax. The function should return the new object.\r\n\r\n2. Write a function called combineArrays that takes multiple arrays as arguments and combines them into a single array using the spread syntax. The function should return the combined array.",
+      "selection": {
+        "start": {
+          "line": 31,
+          "character": 1
+        },
+        "end": {
+          "line": 31,
+          "character": 17
+        }
+      },
+      "line": 51
+    },
+    {
+      "file": "main.js",
+      "description": "## JS modules\r\n\r\n1. Define and export two functions in a new file located in the same directory.\r\n2. Import and use the functions from the new file\r\n3. Use the `type=\"module\"` attribute in the script html tag\r\n",
+      "line": 78
+    }
+  ]
+}
